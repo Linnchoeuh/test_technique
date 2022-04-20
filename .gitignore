@@ -1,0 +1,5 @@
+*.o
+vgcore*
+.vscode
+a.out
+*.a
