@@ -16,7 +16,7 @@ static char **tictactoe_gui(t_game_data *gdata,
 	write(STDOUT_FILENO, "Player ", 7);
 	print_base(gdata->player_turn + 1, 10);
 	content = get_entry("> \033[3m\033[1;33m");
-	write(STDERR_FILENO, "\033[00m", 6);
+	write(STDOUT_FILENO, "\033[00m", 6);
 	return (content);
 }
 
